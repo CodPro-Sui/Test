@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: aliceblue;
+}
+#main{
+    background-color: azure;
+    border-radius: 7px;
+    padding: 15px;
+    box-shadow: 2px 3px 6px rgba(0,0,0,0.2);
+}
+h1{
+    text-align: center;
+}
+.Number{
+    padding-left: 6px;
+}
+.user-number{
+    margin: 9px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input{
+    margin: 0 6px;
+    width: 40px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-size: 21px;
+    color:darkslategrey;
+    font-weight: bold;
+}
+#btn{
+    margin: 8px auto;
+    margin-top: 20px;
+}
+#btn button{
+    padding: 3px 10px;
+    border-radius: 7px;
+    letter-spacing: .3px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:dodgerblue;
+}
+#resend{
+background-color: transparent;
+margin-left: 5px;
+color: blue;
+font-size: 18px;
+outline: none;
+border: none;
+}
